@@ -1,5 +1,81 @@
 body {
-    background: -webkit-linear-gradient(180deg, rgb(222, 222, 227), rgb(125, 103, 161));
-    background: -moz-linear-gradient(180deg, rgb(222, 222, 227), rgb(125, 103, 161));
-    background: linear-gradient(180deg, rgb(222, 222, 227), rgb(125, 103, 161));
+    background: -webkit-linear-gradient(180deg, rgb(222, 222, 227), rgb(176, 164, 196));
+    background: -moz-linear-gradient(180deg, rgb(222, 222, 227), rgb(176, 164, 196));
+    background: linear-gradient(180deg, rgb(222, 222, 227), rgb(176, 164, 196));
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+main {
+    margin: 130px auto;
+    width: 210mm;
+    height: 297mm;
+    background-color: #f6f6f6;
+    padding: 30px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(19, 24, 27, 0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(19, 24, 27, 0.2);
+    box-shadow: 0px 0px 10px 0px rgba(19, 24, 27, 0.2);
+}
+
+.wrapper {
+    border: 1px solid #101010;
+    padding: 40px;
+    min-height: 92.5%;
+}
+
+.section-head {
+    color: #202020;
+    text-align: center;
+}
+
+.section-head > h1 {
+    font-size: 3.3em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+    line-height: 0.9;
+}
+
+h3 {
+    border-top: 3px solid #d2d2d2;
+    border-bottom: 2px solid #333333;
+    font-weight: 400;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 15px 0;
+}
+
+.text-desc {
+    
+    padding: 20px 50px;
+    line-height: 1.5;
+    font-size: 1em;
+}
+
+.link-connect {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 0;
+    border-top: 3px solid #e9e9e9;
+    border-bottom: 3px solid #e9e9e9;
+}
+
+.item-link-connect {
+    display: flex;
+    align-items: center;
+    margin-right: 55px;
+}
+
+.item-link-connect > img {
+    display: block;
+    border-radius: 50%;
+    width: 25px;
+    background-color: #cadfe6;
+    padding: 4px;
+    margin-right: 13px;
+}
+
+.item-link-connect > a {
+    color: #121212;
 }
