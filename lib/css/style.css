@@ -14,9 +14,16 @@ main {
     height: 297mm;
     background-color: #f6f6f6;
     padding: 30px;
+    transition: .5s;
     -webkit-box-shadow: 0px 0px 10px 0px rgba(19, 24, 27, 0.2);
     -moz-box-shadow: 0px 0px 10px 0px rgba(19, 24, 27, 0.2);
     box-shadow: 0px 0px 10px 0px rgba(19, 24, 27, 0.2);
+}
+
+main:hover {
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(19, 24, 27, 0.2);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(19, 24, 27, 0.2);
+    box-shadow: 0px 0px 25px 0px rgba(19, 24, 27, 0.2);
 }
 
 .wrapper {
@@ -40,7 +47,7 @@ main {
 }
 
 .section-title {
-    border-top: 3px solid #d2d2d2;
+    border-top: 2px solid #333333;
     border-bottom: 2px solid #333333;
     font-weight: 500;
     font-size: 1.4em;
@@ -53,7 +60,7 @@ main {
     
     padding: 20px 50px;
     line-height: 1.5;
-    font-size: .9em;
+    font-size: .8em;
 }
 
 .link-connect {
@@ -83,7 +90,11 @@ main {
 
 .item-link-connect > a {
     color: #121212;
-    font-size: .9em;
+    font-size: .8em;
+}
+
+.wrap-section-content {
+    display: flex;
 }
 
 /* SECTION-LEFT*/
@@ -108,12 +119,36 @@ main {
 
 .heading-text {
     text-transform: uppercase;
-    font-size: .9em;
+    font-size: .8em;
     letter-spacing: 1px;
+    font-weight: 500;
     margin-top: 20px;
 }
 
 .item-subsection {
     margin-top: 15px;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
+
+
+/*END SECTION-LEFT*/
+
+/*SECTION-RIGHT*/
+
+.section-right {
+    padding: 0 0 35px 35px;
+}
+
+.item-subsection-right {
+    margin-top: 15px;
+    font-size: .8em;
+}
+
+.subsection-list {
+    font-size: .8em;
+    list-style-type: disc;
+    padding-left: 15px;
+    line-height: 2;
+}
+
+/*END SECTION-RIGHT*/
