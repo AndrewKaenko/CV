@@ -145,4 +145,19 @@ main {
     line-height: 2;
 }
 
+.section-right > h5:first-of-type {
+    margin-top: 35px;
+}
+
+.mt35 {
+    margin-top: 35px;
+}
+
+.mb25 {
+    margin-bottom: 25px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
 /*END SECTION-RIGHT*/
