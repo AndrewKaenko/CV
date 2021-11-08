@@ -188,7 +188,6 @@ main:hover {
     body {
         margin: 0;
         background-color: #f6f6f6;
-
     }
 
     main {
@@ -211,7 +210,7 @@ main:hover {
         text-align: center;
     }
 
-    .section-head > h1 {
+    .section-head>h1 {
         font-size: 3.8em;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -251,11 +250,8 @@ main:hover {
     }
 
     .item-link-connect img {
-
-        border-radius: 50%;
         width: 55px;
         background-color: #cadfe6;
-        padding: 4px;
         margin-right: 7px;
     }
 
@@ -264,12 +260,7 @@ main:hover {
         align-items: center;
         color: #121212;
         font-size: 1.2em;
-        transition: .5s;
         margin-bottom: 10px;
-    }
-
-    .item-link-connect>a:hover {
-        color: rgba(78, 0, 40, .7);
     }
 
     .wrap-section-content {
@@ -299,7 +290,6 @@ main:hover {
     .item-subsection {
         margin-top: 10px;
         font-size: 1.2em;
-        line-height: 1.5;
     }
 
     /*END SECTION-LEFT*/
@@ -317,5 +307,6 @@ main:hover {
     .subsection-list {
         font-size: 1.2em;
     }
+
     /* END SECTION-RIGHT*/
 }
