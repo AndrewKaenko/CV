@@ -211,7 +211,7 @@ main:hover {
         text-align: center;
     }
 
-    .section-head>h1 {
+    .section-head > h1 {
         font-size: 3.8em;
         text-transform: uppercase;
         letter-spacing: 1px;
