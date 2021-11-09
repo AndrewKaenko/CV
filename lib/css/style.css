@@ -211,7 +211,7 @@ main:hover {
     }
 
     .section-head>h1 {
-        font-size: 3.8em;
+        font-size: 2.5em;
         text-transform: uppercase;
         letter-spacing: 1px;
         padding-bottom: 20px;
@@ -223,7 +223,7 @@ main:hover {
         border-top: 2px solid #333333;
         border-bottom: 2px solid #333333;
         font-weight: 500;
-        font-size: 1.5em;
+        font-size: 1.2em;
         text-transform: uppercase;
         letter-spacing: 5px;
         padding: 15px 0;
@@ -233,7 +233,7 @@ main:hover {
         text-align: justify;
         padding: 15px 0;
         line-height: 1.5;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .link-connect {
@@ -250,7 +250,7 @@ main:hover {
     }
 
     .item-link-connect img {
-        width: 55px;
+        width: 35px;
         background-color: #cadfe6;
         margin-right: 7px;
     }
@@ -259,7 +259,7 @@ main:hover {
         display: flex;
         align-items: center;
         color: #121212;
-        font-size: 1.2em;
+        font-size: 1em;
         margin-bottom: 10px;
     }
 
@@ -280,16 +280,16 @@ main:hover {
     }
 
     .subsection-title {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .heading-text {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .item-subsection {
         margin-top: 10px;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     /*END SECTION-LEFT*/
@@ -301,11 +301,11 @@ main:hover {
     }
 
     .item-subsection-right {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .subsection-list {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     /* END SECTION-RIGHT*/
