@@ -37,31 +37,39 @@ main:hover {
 
 .section-head {
     color: #202020;
-    text-align: center;
 }
 
-.section-head>h1 {
+.profile-main {
+    display: flex;
+    align-items: center;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid #333333;
+}
+
+.section-head h1 {
     font-size: 3.5em;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     line-height: 0.9;
     font-weight: 500;
 }
 
 .section-title {
-    border-top: 2px solid #333333;
-    border-bottom: 2px solid #333333;
     font-weight: 500;
     font-size: 1.4em;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    padding: 15px 0;
+    text-transform: lowercase;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    margin-right: 0.5em;
+    margin-right: 1rem;
 }
 
 .text-desc {
-
-    padding: 15px 50px;
+    padding: 15px 40px 15px 0;
     line-height: 1.5;
     font-size: .8em;
 }
@@ -77,16 +85,13 @@ main:hover {
 
 .item-link-connect {
     margin-right: 55px;
-
 }
 
-.item-link-connect img {
 
-    border-radius: 50%;
-    width: 25px;
-    background-color: #cadfe6;
-    padding: 4px;
+.item-link-connect img {
+    width: 15px;
     margin-right: 7px;
+    border-radius: 50%;
 }
 
 .item-link-connect>a {
@@ -110,18 +115,15 @@ main:hover {
 /* SECTION-LEFT*/
 
 .section-left {
-    width: 30%;
+    flex: 0 0 30%;
     border-right: 3px solid #e9e9e9;
-    display: flex;
-    flex-direction: column;
-    padding: 0 35px 35px 0;
+    padding: 0 35px 0 0;
 }
 
 .subsection-title {
     font-weight: 500;
     font-size: 1.3em;
     text-transform: uppercase;
-    letter-spacing: 5px;
     margin-top: 25px;
     border-bottom: 2px solid #333333;
     padding-bottom: 15px;
@@ -129,10 +131,13 @@ main:hover {
 
 .heading-text {
     text-transform: uppercase;
-    font-size: .8em;
-    letter-spacing: 1px;
     font-weight: 500;
     margin-top: 20px;
+}
+
+.job-duration {
+    text-transform: lowercase;
+    font-size: .8em;
 }
 
 .item-subsection {
@@ -145,13 +150,14 @@ main:hover {
     display: inline-block;
     padding: 0 5px;
     margin-bottom: 4px;
-    border: solid 2px #d3d3d3;
+    border: solid 2px #e9e9e9;
     border-radius: 7px;
     transition: .3s;
+    cursor: default;
 }
 
 .item-subsection>span:hover {
-    background-color: #d3d3d3;
+    background-color: #e9e9e9;
 }
 
 .item-sub-border {
@@ -194,7 +200,7 @@ main:hover {
 
 .wrap-project-images {
     width: 100%;
-    padding: 25px 0 25px;
+    padding: .5em 0 .5em;
     display: flex;
     justify-content: space-between;
 }
@@ -206,7 +212,7 @@ main:hover {
 }
 
 .project-image:hover {
-    transform: scale(6);
+    transform: scale(3);
 }
 
 .section-right>h5:first-of-type {
@@ -256,30 +262,22 @@ main:hover {
 
     .section-head {
         color: #202020;
-        text-align: center;
     }
 
     .section-head>h1 {
         font-size: 2.5em;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
         line-height: 0.9;
         font-weight: 500;
     }
 
     .section-title {
-        border-top: 2px solid #333333;
-        border-bottom: 2px solid #333333;
         font-weight: 500;
         font-size: 1.2em;
         text-transform: uppercase;
-        letter-spacing: 5px;
         padding: 15px 0;
     }
 
     .text-desc {
-        text-align: justify;
         padding: 15px 0;
         line-height: 1.5;
         font-size: 1em;
@@ -296,12 +294,6 @@ main:hover {
     .item-link-connect {
         padding-top: 10px;
         margin-left: 0;
-    }
-
-    .item-link-connect img {
-        width: 35px;
-        background-color: #cadfe6;
-        margin-right: 7px;
     }
 
     .item-link-connect>a {
@@ -355,6 +347,10 @@ main:hover {
 
     .subsection-list {
         font-size: 1em;
+    }
+
+    .project-image:hover {
+        transform: none;
     }
 
     /* END SECTION-RIGHT*/
